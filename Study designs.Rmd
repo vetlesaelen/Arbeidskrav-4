@@ -9,33 +9,25 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Spørsmål
 
- 
 
-I denne oppgaven skal det undersøkes hvordan ulike former for trening påvirker VO~2~maks for utrente. Det er valgt ut fem artikler som blir brukt som bakgrunn for disse undersøkelsene (Chtara, 2005; Lo et al., 2011; Nybo et al., 2010; Trapp et al., 2008; Warburton et al., 2004). Ingen av disse studiene har som hovedmål å undersøke utelukkende hvordan VO~2~maks endres over en treningsperiode, men alle studiene bruker det som en del av testbatteriet sitt. Tre av studiene ser på ulike varianter av hvordan trening er helsefremmende. Nybo et al. (2010) undersøker hvordan intervalltrening og tradisjonell trening fremmer helse. Trapp et al. (2008) undersøker hvilken effekt høyintensiv intervalltrening har på fett tap og insulinverdier i hvile hos kvinner. Lo et al. (2011) undersøker hvordan trening og avtrening påvirker kroppssammensetning og fysisk prestasjon i unge menn.  De to siste studiene hadde en litt annen tilnærming og problemstilling enn de foregående tre. Chtara et al. (2005) undersøkte samtidig styrke og utholdenhetstrenings effekt på aerob prestasjon og kapasitet. Og Warburton et al. (2004) undersøkte blod volum ekspansjon og kardiorespiratorisk funksjon.
+I denne oppgaven skal det undersøkes hvordan ulike former for trening påvirker VO~2~maks for utrente. Det er valgt ut fem artikler som blir brukt som bakgrunn for disse undersøkelsene (Chtara, 2005; Lo et al., 2011; Nybo et al., 2010; Trapp et al., 2008; Warburton et al., 2004).<!-- Får du til å bruke referansehåndteringen som finns inbyggt i RStudio/RMarkdown? --> Ingen av disse studiene har som hovedmål å undersøke utelukkende hvordan VO~2~maks endres over en treningsperiode, men alle studiene bruker det som en del av testbatteriet sitt. Tre av studiene ser på ulike varianter av hvordan trening er helsefremmende. Nybo et al. (2010) undersøker hvordan intervalltrening og tradisjonell trening fremmer helse. Trapp et al. (2008) undersøker hvilken effekt høyintensiv intervalltrening har på fett tap og insulinverdier i hvile hos kvinner. Lo et al. (2011) undersøker hvordan trening og avtrening påvirker kroppssammensetning og fysisk prestasjon i unge menn. 
 
- 
+De to siste studiene hadde en litt annen tilnærming og problemstilling enn de foregående tre. Chtara et al. (2005) undersøkte samtidig styrke og utholdenhetstrenings effekt på aerob prestasjon og kapasitet. Og Warburton et al. (2004) undersøkte blod volum ekspansjon og kardiorespiratorisk funksjon.
+
 
 # Alternative forklaringer
 
- 
-
 Selv om alle studiene har satt seg ut å teste forskjellige problemstillinger svarer alle til en viss grad på den problemstillingen som man prøver å besvare i denne oppgaven. Alle studiene bruker to eller flere treningsgrupper som trener forskjellig, og tester VO~2~maks før og etter, men bare Lo et al. (2010) har det med som en del av hypotesen, hvor man ønsker å undersøke endringen. Det er to av artiklene som fremstiller en hypotese (Lo et al., 2011; Warburton et al., 2004), de tre andre studiene ønsker å undersøke effekten en intervensjon har på ulike parameter.
 
- 
 
- 
-
- 
 
 # Metode
 
- 
+<!-- Denne delen kan du godt skrive mer sammen og disponere tematisk kring (1) studiedesigner og (2) statistisk metode. Forklar f.eks. hva er randomisert kontrollert studie er og hvordan den kan bli brukt for å finne ut av spørsmålene som de ulike studiene stiller.   -->
 
-Nybø et al. (2010) brukte en randomisert kontrollstudie (RCT-studie). Gruppen som ble testet var 36 utrente menn, som ikke hadde drevet organisert fysisk aktivitet de siste to år. De hadde en gjennomsnittsalder på 31 år. Ingen av deltakerne røykte og alle var uten sykdommer. Studien sier ikke noe om hvordan dette er representativt for populasjonen. Studien bestod av 4 grupper, en gruppe som bedrev høyintensiv intervalltrening, en som trente styrketrening, en som trente moderat løping, og en kontrollgruppe. De tre treningsgruppene trente 2-3 ganger i uka i 12 uker, kontrollgruppa opprettholdt samme fysiske form som ved pre test. Alle gjennomførte testbatteriet en gang før pre test, for å bli kjent med hvordan det skulle foregå. Prestasjonstesten ble gjennomført på en standardisert tredemølle test, måling av alle de andre fysiologiske variablene ble gjennomført om morgenen i fastende tilstand. Dette ble gjennomført både før intervensjonsperioden og etter. For å sammenligne gruppene ble det brukt en to veis ANOVA test, og en veis ANOVA for å sammenligne repeterte målinger. Signifikansnivået ble satt til P \< 0,05.
+Nybø et al. (2010) brukte en randomisert kontrollstudie (RCT-studie). Gruppen som ble testet var 36 utrente menn, som ikke hadde drevet organisert fysisk aktivitet de siste to år. De hadde en gjennomsnittsalder på 31 år. Ingen av deltakerne røykte og alle var uten sykdommer. Studien sier ikke noe om hvordan dette er representativt for populasjonen. Studien bestod av 4 grupper, en gruppe som bedrev høyintensiv intervalltrening, en som trente styrketrening, en som trente moderat løping, og en kontrollgruppe. De tre treningsgruppene trente 2-3 ganger i uka i 12 uker, kontrollgruppa opprettholdt samme fysiske form som ved pre test. Alle gjennomførte testbatteriet en gang før pre test, for å bli kjent med hvordan det skulle foregå. Prestasjonstesten ble gjennomført på en standardisert tredemølle test, måling av alle de andre fysiologiske variablene ble gjennomført om morgenen i fastende tilstand. Dette ble gjennomført både før intervensjonsperioden og etter. For å sammenligne gruppene ble det brukt en to veis ANOVA test, og en veis ANOVA for å sammenligne repeterte målinger. Signifikansnivået ble satt til P \< 0,05.<!-- Hvorfor, forklar nærmere hvorfor disse testene ble brukt, hva i designet hva det som muliggjorde bruken av denne testen. -->
 
- 
-
-Trapp et al. (2008) brukte en RCT-studie. Gruppen var ikke røykende, inaktive, men friske kvinner mellom 18 og 30 år. Studien sier ikke noe om hvorvidt dette var representativt for populasjonen. Studien bestod av tre grupper, en gruppe som trente høyintensivt intervall på sykkel, en gruppe som trente moderat med kontinuerlig arbeid, og en kontrollgruppe. Det var ingen signifikante forskjeller mellom gruppene ved pretest. Både de fysiologiske testene og prestasjonstesten ble gjennomført standardisert, og det ble gjennomført pretest før intervensjonsstart og en posttest etter. De statistiske testene som ble gjennomført var en post hoc test, og det ble regnet ut en korrelasjonskoeffeisent.
+Trapp et al. (2008) brukte en RCT-studie. Gruppen var ikke røykende, inaktive, men friske kvinner mellom 18 og 30 år. Studien sier ikke noe om hvorvidt dette var representativt for populasjonen. Studien bestod av tre grupper, en gruppe som trente høyintensivt intervall på sykkel, en gruppe som trente moderat med kontinuerlig arbeid, og en kontrollgruppe. Det var ingen signifikante forskjeller mellom gruppene ved pretest. Både de fysiologiske testene og prestasjonstesten ble gjennomført standardisert, og det ble gjennomført pretest før intervensjonsstart og en posttest etter. De statistiske testene som ble gjennomført var en post hoc test, og det ble regnet ut en korrelasjonskoeffeisent.<!-- Samme som over: Hvorfor? -->
 
  
 
@@ -59,7 +51,7 @@ Alle studiene gjennomførte en RCT studie. Det er forskjellig antall forsøksper
 
  
 
-Alle studiene svarer på sin egen problemstilling, og tester de variablene som inngår i hypotesen eller problemstillingen. De tester og andre variabler som for eksempel VO~2~maks, som i 4 av 5 studier ikke inngår i hypotesen. Dette er typisk for idrettsforskning, hvor man gjerne har så store testbatterier at man og finner andre resultater som man egentlig ikke leter etter. Disse blir gjerne brukt videre i andre artikler eller brukt som grunnlaget for ny forskning. Dette gjør og at man kan gjøre som det blir gjort i denne oppgaven, og se på hvordan ulik intervensjon påvirker VO~2~maks, selv om det ikke er en del av hovedfunnene til noen av studiene man bruker.
+Alle studiene svarer på sin egen problemstilling, og tester de variablene som inngår i hypotesen eller problemstillingen. De tester og andre variabler som for eksempel VO~2~maks, som i 4 av 5 studier ikke inngår i hypotesen. Dette er typisk for idrettsforskning, hvor man gjerne har så store testbatterier at man og finner andre resultater som man egentlig ikke leter etter<!-- Referanse på det? Muligens en observasjon du kan gjennomføre på bakgrunn av presenterte studier -->. Disse blir gjerne brukt videre i andre artikler eller brukt som grunnlaget for ny forskning. Dette gjør og at man kan gjøre som det blir gjort i denne oppgaven, og se på hvordan ulik intervensjon påvirker VO~2~maks, selv om det ikke er en del av hovedfunnene til noen av studiene man bruker.
 
  
 
